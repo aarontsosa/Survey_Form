@@ -1,0 +1,29 @@
+html{
+    background-color: wheat;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    margin-left: 25%;
+    text-align: center;
+    background-color: lightsalmon;
+    padding: .2rem 0;
+    font-size: 5rem;
+    width: 50%;
+    color: white;
+}
+form{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    text-indent: 2rem;
+}
+
+form input{
+    width: 40%;
+    margin-left: 2rem;
+}
