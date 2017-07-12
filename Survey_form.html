@@ -19,172 +19,178 @@
     </header>
     <main class="container">
         <br>
-        <form action="http://localhost:5000" enctype="multipart/form-data" method="POST">
-            <div class="form-group">
-                <label for="name-field">Name:</label>
-                <input type="name" class="form-control" placeholder="Full Name">
-            </div>
-            <div class="form-group">
-                <label for="password-field">Password:</label>
-                <input type="password" class="form-control" placeholder="Password">
-            </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="http://localhost:5000" enctype="multipart/form-data" method="POST">
+                    <div class="form-group">
+                        <label for="name-field">Name:</label>
+                        <input type="name" class="form-control" placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="password-field">Password:</label>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
 
-            <label>Super Powers:</label>
-            <div class="checkbox">
-                <lable> 
-                    <input type="checkbox" name="invisibility">Invisibility
-                </lable>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="healing">Healing
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="underwaterbreathing">Underwater Breathing
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="timetravel">Time Travel
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="invunerable">Invunerability
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="telepathy">Telepathy
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="agility">Super Agility
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="speed">Speed
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="strength">Strength
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="flight">Flight
-                </label>
-            </div>
+                    <label>Super Powers:</label>
+                    <div class="checkbox">
+                        <lable> 
+                            <input type="checkbox" name="invisibility">Invisibility
+                        </lable>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="healing">Healing
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="underwaterbreathing">Underwater Breathing
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="timetravel">Time Travel
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="invunerable">Invunerability
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="telepathy">Telepathy
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="agility">Super Agility
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="speed">Speed
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="strength">Strength
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="flight">Flight
+                        </label>
+                    </div>
 
-            <br>
+                    <br>
 
-            <label> Cape Size:</label>
-            <select class="form-control" name="capesize">
-                <option>Xtra Small</option>
-                <option>Small</option>
-                <option>Medium</option>
-                <option>Large</option>
-                <option>Xtra Large</option>
-                <option>Xtra Xtra Large</option>
-            </select>
-            <br>
-            <label>Operating System Choice:</label>
-            <div class="checkbox">
-                <lable> 
-                    <input type="checkbox" name="invisibility">Mac OS
-                </lable>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="healing">Microsoft Windows
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="underwaterbreathing">Linux
-                </label>
-            </div>
-            
-            <label>Bio:</label>
-            <textarea class="form-control" rows="3" placeholder="Your Bio"></textarea>
-            <br>
-            <div class="form-group">
-                <label for="tag-field">Tag Line:</label>
-                <input type="tagline" class="form-control" placeholder="Your tag line">
-            </div>
+                    <label> Cape Size:</label>
+                    <select class="form-control" name="capesize">
+                        <option>Xtra Small</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>Xtra Large</option>
+                        <option>Xtra Xtra Large</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <label>Operating System Choice:</label>
+                    <div class="checkbox">
+                        <lable> 
+                            <input type="checkbox" name="invisibility">Mac OS
+                        </lable>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="healing">Microsoft Windows
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="underwaterbreathing">Linux
+                        </label>
+                    </div>
+                    
+                    <label>Bio:</label>
+                    <textarea class="form-control" rows="3" placeholder="Your Bio"></textarea>
+                    <br>
+                    <div class="form-group">
+                        <label for="tag-field">Tag Line:</label>
+                        <input type="tagline" class="form-control" placeholder="Your tag line">
+                    </div>
 
-            <div class="form-group">
-                <label for="enemies-field">Arch Enemies List:</label>
-                <input type="eneimes" class="form-control" placeholder="Your arch enimies">
-            </div>
-            <div class="form-group">
-                <label for="mascot-field">Mascot/Power Animal:</label>
-                <input type="mascot" class="form-control" placeholder="What is your mascot/power animal">
-            </div>
+                    <div class="form-group">
+                        <label for="enemies-field">Arch Enemies List:</label>
+                        <input type="eneimes" class="form-control" placeholder="Your arch enimies">
+                    </div>
+                    <div class="form-group">
+                        <label for="mascot-field">Mascot/Power Animal:</label>
+                        <input type="mascot" class="form-control" placeholder="What is your mascot/power animal">
+                    </div>
 
-            <label>Programing Languages:</label>
+                    <label>Programing Languages:</label>
 
-            <br>
+                    <br>
 
-            <div class="checkbox">
-                <lable> 
-                <input type="checkbox" name="js">JavaScript
-                </lable>
+                    <div class="checkbox">
+                        <lable> 
+                        <input type="checkbox" name="js">JavaScript
+                        </lable>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="java">Java
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="ruby">Ruby
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="C++">C++
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="C#">C#
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="Go">Go
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="Scala">Scala
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="swift">Swift
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="python">Python
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label> 
+                            <input type="checkbox" name="php">PHP
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Send off</button>
+                    <button type="reset" class="btn btn-default">Reset</button>
+                    <br>
+                </form>
             </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="java">Java
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="ruby">Ruby
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="C++">C++
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="C#">C#
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="Go">Go
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="Scala">Scala
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="swift">Swift
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="python">Python
-                </label>
-            </div>
-            <div class="checkbox">
-                <label> 
-                    <input type="checkbox" name="php">PHP
-                </label>
-            </div>
-            <button type="submit" class="btn btn-default">Send off</button>
-            <button type="reset" class="btn btn-default">Reset</button>
-            <br>
-        </form>
+        </div>
         <br>
     </main>
 </body>
