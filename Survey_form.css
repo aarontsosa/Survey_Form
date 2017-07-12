@@ -6,6 +6,7 @@ header{
     color: White;
     font-weight: bold;
     text-align: center;
+    box-shadow: 1px 1px 1px #BFD7DC;
 }
 h2{
     margin-top: 10px;
@@ -16,9 +17,11 @@ h2{
 .container-fluid{
     /*padding: 0px;*/
     background-color: #CAEBF2;
+
 }
 .container{
     width: 90%;
-    background-color: white;
+    background-color:white;
     margin-bottom: 10px;
+    box-shadow: 1px 1px 1px #BFD7DC;
 }
